@@ -17,10 +17,12 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 
 
 fn five() -> i32 {
-    5                               // 結尾不加;才能return
+    // 結尾不加;才能return
+    5                               
 }
 fn five_return() {
-    let x = five();                 // 等於 let x = 5;
+    // let x = five() 等於 let x = 5;
+    let x = five();                 
     println!("The value of x is: {}", x);
 }
 fn plus_one(x: i32) -> i32 {
